@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Ribeye&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    
+}
+
+.header-img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 260px;
+    height: 260px;
+}
+
+header{
+    background-image:linear-gradient(to right,#CFC56C,#ACA568,#DC7D26);
+    width: 100%;
+    height:307px;
+    border-bottom: 10px #BEAD70 solid;
+}
+
+.location{
+    width: 100px;
+    border-top-left-radius: 40px;
+    background-color: #D59B7A;
+    top: 85px;
+    position:absolute;
+    right: 0;
+    transition: .7s ease-out;
+}
+.location img{
+    height: 50px;
+    padding: 5px;
+}
+
+.location:hover{
+    width:280px;
+    transition: .7s ease-out;
+}
+
+.catalog:hover{
+    width: 280px;
+    transition: .7s ease-out;
+}
+.catalog{
+    text-align: left;
+    width: 190px;
+    position: absolute;
+    top:222px ;
+    right: 0px;
+    text-decoration: none;
+    font-size: 48px;
+    padding: 10px;
+    background-color: #BDA580;
+    font-family: Ribeye;
+    color: black;
+    border-top-left-radius: 40px;
+    transition: .7s ease-out;
+}
+.review{
+    position: absolute;
+    top: 148px;
+    width: 145px;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: Ribeye;
+    text-align: left;
+    right: 0;
+    padding: 10px;
+    background-color:#C9B368 ;
+    border-top-left-radius: 40px;
+    transition: .7s ease-out;
+    
+}
+.review:hover{
+    width: 280px;
+    transition: 0.7s ease-out;
+}
+header section{
+    border-bottom: 5px #BEAD70 solid;
+}
+main{
+    background-image: linear-gradient(to bottom,#F6C984,#CC986A,#A56A51);
+}
+.us{
+    text-align: center;
+    border: black 2px solid;
+    text-decoration: none;
+    color: black;
+    font-family: Ribeye;
+    font-size: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-right: 80px;
+    background-image: linear-gradient(to right,#E3F891,#FDE8CF);
+
+}
+.secondpart{
+    font-size: 24px;
+    font-family: Ribeye;
+}
+.firstpart{
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: Ribeye;
+}
+
+.about-text{
+    padding:5%;
+}
+
+.tort{
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 300px;
+    height: auto;
+    border-radius: 60px;
+    border: #DBFCCF 10px solid;
+}
+.firstpart span{
+    background-image: linear-gradient(#DBFCCF,#BEAB79);
+    border-radius: 20px;
+}
+.secondpart span{
+    background-image: linear-gradient(#F1B670,#BA8A51);
+    border-radius: 20px;
+}
+.h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: Ribeye;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    text-align: center;
+}
+.coffee{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #F4DDC1 5px solid;
+    margin-bottom: 60px;
+}
+.coffee img{
+    border-radius: 70px;
+}
+.latte{
+    font-family: Risque;
+    font-size: 32px;
+}
+.article1{
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutus div{
+    margin: auto;
+}
+.hrn{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.article2{
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.rlatte{
+    font-family: Risque;
+    font-size: 32px;
+}
+.espresso{
+    font-family: Risque;
+    font-size: 32px;
+}
+.article3{
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.latte-border{
+    border-right:#F4DDC1 5px solid ;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: #F4DDC1 solid 5px;
+    box-shadow: 10px 5px 5px 0 #AF8F6F ;
+}
+.rlatte-border{
+    border-right: #F4DDC1 solid 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: #F4DDC1 solid 5px;
+    box-shadow: 10px 5px 5px 0 #AF8F6F ;
+
+}
+footer h1{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Ribeye;
+}
+footer{
+    padding-top: 50px;
+    border-top:#A56A51 solid 3px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#A56A51,#A68A8A);
+}
+.facebook{
+    margin-top: 22px;
+    margin-right: 70px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.instagram{
+    margin-top: 22px;
+    margin-right:80px ;
+    height: 30px;
+    width: 30px;
+    border-radius:5px ;
+}
+.espresso-border{
+    border-right: #F4DDC1 solid 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: #F4DDC1 solid 5px;
+    box-shadow: 10px 5px 5px 0 #AF8F6F ;
+}
+
+.h1-reviews{
+    text-align: center;
+    margin: auto;
+    font-family: Ribeye;
+    background-color: #ECD59A;
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.review-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    border: 2px solid black;
+    max-width: 800px;
+}
+
+.review-item img{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 20px solid #CBB492;
+    margin-right: 30px;
+}
+
+.review-item p{
+    font-family: Roboto Mono;
+    font-size: 22px;
+    margin: auto;
+}
+
+.review-item div{
+    margin: auto;
+}
+
+.map-st{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    border-radius: 103px;
+    border: 40px solid #CAB18C;
+}
+.find{
+    font-family: Ribeye;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.left-map-figure, .right-map-figure{
+    width: 200px;
+    height: 350px;
+}
+
+.left-map-figure{
+    border-left: 50px;
+    background-image: linear-gradient(to right, #F1B670, #BA8A51);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.right-map-figure{
+    border-right: 50px;
+    background-image: linear-gradient(to right, #BA8A51, #F1B670);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
